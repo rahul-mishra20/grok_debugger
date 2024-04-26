@@ -1,0 +1,16 @@
+<div class="container">
+    <div class="grok_input_pattern">
+        <span>Grok Pattern: </span>
+        <textarea [(ngModel)]="grokPattern" (ngModelChange)="changed()" class="grok_pattern_data"></textarea>
+        <span>Input: </span>
+        <textarea [(ngModel)]="grokInput" (ngModelChange)="changed()" class="grok_input_data"></textarea>
+    </div>
+
+    <div class="grok_output">
+        <span>Output: </span>
+        <textarea [readOnly]="true"  class="grok_output_data">{{ grokOutput }}</textarea >
+    </div>
+</div>
+
+
+

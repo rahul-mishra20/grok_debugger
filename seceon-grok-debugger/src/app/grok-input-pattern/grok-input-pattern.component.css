@@ -1,0 +1,38 @@
+.container {
+    display: grid;
+    height: 100%;
+    width: 100%;
+    grid-template-columns: 60% 38%;
+    column-gap: 2%;
+    /* border: 5px solid red; */
+}
+
+/* .grok_input_pattern > * {
+    border: 2px solid blue;
+} */
+
+.grok_input_pattern {
+    display: grid;
+    grid-template-rows: 5% 20% 5% 64%;
+    row-gap: 2%;
+    /* border: 2px solid yellow; */
+}
+.grok_output {
+    display: grid;
+    grid-template-rows: 5% 93%;
+    row-gap: 2%;
+    /* border: 5px solid red; */
+}
+
+span {
+    font-size: larger;
+    font-weight: bolder;
+    color: wheat;
+}
+
+textarea {
+    font-size: x-large;
+    resize: none;
+    font-weight: bold;
+    /* border: 5px solid red; */
+}
